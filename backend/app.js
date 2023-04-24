@@ -58,11 +58,17 @@ app.get('/q4',(req,res)=>{
 })
 
 
- app.get("/q5",(req,res)=>{
+/* app.get("/q5",(req,res)=>{
      
-    res.json()
+    const cityData={};
+    data.forEach({user}=>{
+      const city =user.city;
+      const income= parseFloat(user.income.replace('$', ''));
+      
+    })  
       
   })
+*/
 
 
 app.listen(port, () => {
