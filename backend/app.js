@@ -13,7 +13,7 @@ app.get('/q1', (req, res) => {
   const filteredUsers = data.filter(user => {
     const income = parseFloat(user.income.replace('$', ''));
     const hasLowIncome = income < 5;
-    const hasLuxuryCar = user.car === "BMW" || user.car === "Mercedes";
+    const hasLuxuryCar = user.car === "BMW" || user.car === "Mercedes-Benz";
 
     return hasLowIncome && hasLuxuryCar;
   });
@@ -48,7 +48,7 @@ app.get('/q3',(req,res)=>{
 
 app.get('/q4',(req,res)=>{
     const filteredUsers = data.filter(user => {
-        const hasLuxuryCar = ["BMW", "Mercedes", "Audi"].includes(user.car);
+        const hasLuxuryCar = ["BMW", "Mercedes-Benz", "Audi"].includes(user.car);
         const emailHasNoDigit = !(/\d/.test(user.email));
       
         return hasLuxuryCar && emailHasNoDigit;
