@@ -58,17 +58,12 @@ app.get('/q4',(req,res)=>{
 })
 
 
-/* app.get("/q5",(req,res)=>{
+ app.get("/q5",(req,res)=>{
      
-    const cityData={};
-    data.forEach({user}=>{
-      const city =user.city;
-      const income= parseFloat(user.income.replace('$', ''));
-      
-    })  
+    res.json()
       
   })
-*/
+
 
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
