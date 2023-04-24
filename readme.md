@@ -61,7 +61,6 @@ Use the provided sample data to load your Database. Please refer to sample data 
 - The frontend of this project is hosted on Netlify at the following URL: https://luminous-dango-4c6d7f.netlify.app/
 
 - The backend of this project is hosted on Render at the following URL: https://assignment-4x5m.onrender.com/q1
-
  **`(change the route from q1 to q2,q3,q4,q5 for desired json data)`**
 
 
