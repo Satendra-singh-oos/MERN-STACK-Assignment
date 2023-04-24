@@ -9,7 +9,7 @@ const App = () => {
   const fetchData = async (query) => {
     setIsLoading(true);
     try {
-      const response = await axios.get(`http://localhost:9000/${query}`);
+      const response = await axios.get(`https://assignment-4x5m.onrender.com/${query}`);
       setData(response.data);
       // if(query === 'q1'){
       //   alert("This query will find all the Users which have income lower than $5 USD and have a car of brand “BMW” or “Mercedes”.")
