@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    background: #e0e5ec; 
+
+}
+
+button{
+  padding: 20px;
+  border: none;
+  width: 150px;
+  height: 70px;
+  justify-content: space-around;
+  align-items: center;
+  background: #b621fe;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 20px;
+  color: #FFFF;
+  background-color: #e0e5ec;
+  transition: all 0.3s ease;
+  background-color: #663dff;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+table >thead >tr > th {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+.tbody{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+
+p {
+    font-size:20px ;
+}
